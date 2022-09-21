@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>View Customers</title>
+    <title>ARC Bank</title>
+    <style>
+      body {
+        background-image: url('https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg?w=1380&t=st=1663714934~exp=1663715534~hmac=e540670151a3a4dc8489809f9b253627866aa6d97a4cde15ebe7b70c7065159e');
+      }
+    </style>
+
+
+
+    <style>
+      button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+       button {
+        padding: 14px 28px;
+        border: none;
+        outline-width: 0;
+        color: black;
+        background-image: linear-gradient(120deg, white, white);
+        margin: 0;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        -ms-transform: translate(-90%, -50%);
+        transform: translate(-50%, -50%);
+        border-radius: 24px;
+        cursor: pointer;
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 20px;
+      }
+     
+    </style>
+
+<style>
+    /* table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    
+    table.cent {
+      margin-left: auto; 
+      margin-right: auto;
+    } */
+    * {
+  font-family: sans-serif; /* Change your font family */
+}
+
+.content-table {
+
+  background-color: #ffffff;
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 25px 30px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+    </style>
+
+    <link rel="stylesheet" href="view1.css" />
+  </head>
+  <body>
+    <nav class="navy">
+      <a href="/index.html"> <img
+        src="https://www.pngitem.com/pimgs/m/101-1016890_icon-bank-logo-png-transparent-png.png"
+        alt="A Bank We Trust"
+      /></a>  
+      <div class="nav-items">
+        <a href="index.html"><b>Home</b></a>
+      </div>
+    </nav>
+    </header>
+    <h2 style="color: white;"><b>All Of Our Customers</b></h2>
+    <br>
+    <br>
+    <table class="content-table">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Balance</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="active-row">
+          <td>1</td>
+          <td>Youssef Taha</td>
+          <td>youssef.taha@gmail.com</td>
+          <td>$950000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Mohamed khaled</td>
+          <td>mohamed@email.com</td>
+          <td>$100000</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Youssef Abo Solieb</td>
+          <td>yousef.solieb@email.com</td>
+          <td>$152000</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Malek Ahmed</td>
+          <td>malek@email.com</td>
+          <td>$75000</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Amr Ayman</td>
+          <td>Amr@email.com</td>
+          <td>$80000</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Basel Mohammed</td>
+          <td>basel@email.com</td>
+          <td>$10000</td>
+        </tr>
+      </tbody>
+    </table>
+      <br>
+      <button>
+          <span><a href="transfer.html">transfer</a></span>
+      </button>
+      <br>
+      <br>
+  </body>
+</html>

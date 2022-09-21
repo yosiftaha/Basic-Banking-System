@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 80px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer {
+    text-align: center;
+    padding: 0;
+    color: white;
+  }
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    scroll-behavior: smooth;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 32px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+
+}
+
+.nav-items > a{
+    padding: 12px 15px;
+    outline-width: 0;
+    border: none;
+    text-decoration: none;
+    border-radius: 24px;
+    font-size: 1.2rem;
+    color: white;
+    margin-left: 50px;
+}
+  .nav-items > a:hover{
+    color: black;
+    background:linear-gradient(white,white);
+}
+.About-sec > h2 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: white;
+
+    padding: 12px 15px;
+    outline-width: 0;
+    border: none;
+    text-decoration: none;
+    border-radius: 24px;
+    margin-left: 50px;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.hero-img-container > img{
+    width: 800px;
+}
+.hero-img-container{
+    background-size: cover ;
+    background-position: center;
+    padding-top: 20px;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.text-container > h1{
+    font-size: 50px; ;
+    font-weight: 900;
+    margin-bottom: 30px;
+    line-height: 1.2;
+    color: gold;
+}
+.text-container > p{
+    font-family: 'Ms Madi', 'cursive';
+    font-size: 40px;
+    /* font-size: 20px; */
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: white;
+}
+.About-sec {
+
+    padding-top: 10vh;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 10vh;
+}
+.About-sec > li{
+    font-family: 'Ms Madi', 'cursive';
+    font-size: 40px;
+}
+.About-sec > p {
+
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0 auto;
+    color: gold;
+}
